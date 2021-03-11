@@ -15,9 +15,80 @@
         <textarea id="in" width="300px" height="300px">
             block.js content
         </textarea>
-        <button onclick="convert()">Convert</button>
+        <button onclick="convert()">Konvertieren</button>
         <textarea id="out" readonly width="300px" height="300px">
 
         </textarea>
     </body>
+
+
+    <h1>Anleitung:</h1>
+    <ol>
+        <li><a href="#daten">Twitter Daten anfragen</a></li>
+        <li><a href="#blockjs">block.js finden</a></li>
+        <li><a href="#convert">Daten umwandel f&uuml;r Blockchain</a></li>
+        <li><a href="#import">Daten in Blockchain importieren</a></li>
+        <li><a href="#alt">Alternative: Red Block</a></li>
+  
+    </ol>
+
+
+    <h2 id="daten">Twitter Daten anfragen</h2>
+    
+    <p>
+        Als erstes musst du deine Twitter Daten anfragen.<br>
+        &Ouml;ffne dafür die Desktop Seite von Twitter.<br>
+        W&auml;hle "Mehr" aus.<br><br>
+        <img src="img/more.png"></img><br><br>
+        Click auf "Einstellungen und Datenschutz"<br><br>
+        <img src="img/settings.png"></img><br><br>
+        Click auf "Dein Account" und dann auf "Ein Archiv deiner Daten herunterladen". Du wirst dein Password eingeben müssen.<br><br>
+        <img src="img/account.png"></img><br><br>
+        Folge den weiteren Anweisungen.<br><br>
+        Innerhalb der nächsten 2 Tage erhältst du eine Email von Twitter mit den Download link deiner Daten.
+       
+    </p>
+
+    <h2 id="blockjs">block.js finden</h2>
+    <p>
+        &Ouml;ffne das Twitter Archiv (z.b. "twitter-2021-03-10-4a70[...]38d3.zip").<br>
+        &Ouml;ffne den "Data" ordner im Twitter Archive<br><br>
+        <img src="img/twitter_data.png"></img><br><br>
+        &Ouml;ffne die "block.js" Datei im Ordner<br><br>
+        <img src="img/data.png"></img><br><br>
+    </p>
+    <h2 id="convert">Daten umwandel f&uuml;r Blockchain</h2>
+    <p>
+        Kopiere den inhalt der "block.js" Datei <br><br>
+        <img src="img/block.png"></img><br><br>
+        F&uuml;ge den Inhalt in das Textfeld oben links ein und dr&uuml;cke "Konvertieren"<br><br>
+        Kopiere den Text aus den rechten Textfeld.
+    </p>
+    <h2 id="import">Daten in Blockchain importieren</h2>
+    <p>
+        &Ouml;ffne die Follower Seite eines Accounts. <br>
+        Click auf das Blockchain Symbol<br><br>
+        <img src="img/open_blockchain.png"></img><br><br>
+
+        Click auf "run import"<br><br>
+        <img src="img/import.png"></img><br><br>
+        F&uuml;ge den Text ein und
+        click auf "start import"<br><br>
+        <img src="img/start_import.png"></img><br><br>
+    </p>
+    <h2 id="import">Alternative: Red Block</h2>
+    <p>
+        Folge Schritt 1 und 2 der Anleitung.<br>
+        Speichere die "block.js" Datei auf deinen PC.<br>
+        &Ouml;ffne Redblock und click auf "Blocklist"<br><br>
+        <img src="img/red_block.png"></img><br><br>
+
+        Click auf "OPEN IN NEW TAB"<br><br>
+        <img src="img/newtab.png"></img><br><br>
+
+        Click auf "SELECT FILES" und w&auml;hle "block.js" aus<br><br>
+        <img src="img/file.png"></img><br><br>
+
+        Red Block sollte nun alle Accounts in der Datei blockieren. 
+    </p>
 </html>
